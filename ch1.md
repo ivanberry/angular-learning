@@ -1,6 +1,6 @@
-# a能干吗
+# *Angular*能干吗
 
-a能强化我们标准化HTML文档，以下我们通过直接书写静态文档和a来强化实现HTMl，理解a起到的部分作用。从中，我们一步步能看出我们是如何将静态文件a化的。
+*Angular*能强化我们标准化HTML文档，以下我们通过直接书写静态文档和*Angular*来强化实现HTMl，理解*Angular*起到的部分作用。从中，我们一步步能看出我们是如何将静态文件*Angular*化的。
 
 ```html
 <ul>
@@ -19,13 +19,13 @@ a能强化我们标准化HTML文档，以下我们通过直接书写静态文档
 </ul>
 ```
 
-以上一个列表，很简单的结构，我们看看如何实现a化。
+以上一个列表，很简单的结构，我们看看如何实现*Angular*化。
 
 软件架构有多种模式，a采用的是*MVC*模式，通过解耦模型，视图和控制器达到*分治*和*复用*的目的。
 
 ## 视图与模板
 
-a中，视图是通过绑定*model*的HTMl模板*template*，这就意味着，一旦我们的*model*有变动，视图层就会有对应更新:
+*Angular*中，视图是通过绑定*model*的HTMl模板*template*，这就意味着，一旦我们的*model*有变动，视图层就会有对应更新:
 
 ```html
 <html ng-app="phonecatApp">
@@ -85,7 +85,7 @@ phonecatApp.controller('PhoneListController', function PhoneListController($scop
 
 ## 作用域
 
-作用域是JS中的一个基础知识，同样在a中也是关键的一部分，它是联系视图模板，模型和控制器的*胶水*, 通过作用域a可以保持模型和视图的分离，它们之间不能之间访问，但是通过作用域作为媒体却是能够实现同步的绑定。
+作用域是JS中的一个基础知识，同样在*Angular*中也是关键的一部分，它是联系视图模板，模型和控制器的*胶水*, 通过作用域*Angular*可以保持模型和视图的分离，它们之间不能之间访问，但是通过作用域作为媒体却是能够实现同步的绑定。
 
 ![angular中的作用域](https://docs.angularjs.org/img/tutorial/tutorial_02.png)
 
